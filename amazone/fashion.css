@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.25%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 34.4rem;
+  padding: 1.2rem 0.4rem;
+  margin: 0 auto;
+}
+.container-3 {
+  max-width: 34.4rem;
+  margin: 0 auto;
+}
+.container-2 {
+  max-width: 36.4rem;
+  margin: auto;
+}
+
+.poster {
+  width: 100%;
+}
+.poster-2 {
+  width: 100%;
+}
+
+.back-color-1 {
+  background-color: #63e6be;
+  padding: 2.4rem 0 0 0;
+}
+
+input {
+  width: 100%;
+  padding: 1.3rem 4.7rem;
+  border-radius: 0.6rem;
+  border: 1px solid #55555599;
+  outline: none;
+  font-size: 1.6rem;
+  color: #777;
+}
+
+.search-link {
+  color: black;
+}
+
+.search-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: 0.7rem;
+}
+
+.full-serach-flex {
+  display: flex;
+  align-items: center;
+}
+
+.back-icon {
+  color: #424242;
+  width: 2.8rem;
+  height: 2.8rem;
+  margin-right: 0.4rem;
+}
+
+.camera-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: -8.2rem;
+  color: #777;
+}
+
+.mic-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: -3.5rem;
+  color: #777;
+}
+
+/*  */
+
+.back-color-2 {
+  background-color: #96f2d7;
+  padding: 1.2rem;
+}
+
+.loc-icon {
+  width: 2rem;
+  height: 2rem;
+  color: black;
+}
+
+.location-link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.cashback-poster {
+  width: 100%;
+}
+
+.products-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.products-flex img {
+  width: 100%;
+}
+.products-flex {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}

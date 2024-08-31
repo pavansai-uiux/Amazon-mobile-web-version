@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon</title>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <!-- //////////////////////////////////////////////////// -->
+  <body>
+    <div class="back-color-1">
+      <div class="full-serach-flex">
+        <div class="container-1">
+          <header>
+            <div class="heading-flex">
+              <div class="header">
+                <nav class="nav">
+                  <ul class="nav-menu container">
+                    <li><a class="nav-link" href="#">Amazone Home</a></li>
+                    <li><a class="nav-link" href="#">Account</a></li>
+                    <li><a class="nav-link" href="#">You</a></li>
+                    <li><a class="nav-link" href="#">My Cart</a></li>
+                    <li><a class="nav-link" href="index1.html">Log Out</a></li>
+                  </ul>
+                </nav>
+                <button class="btn-mobile-nav">
+                  <ion-icon
+                    class="btn-mobile-icon"
+                    name="menu-outline"
+                  ></ion-icon>
+                  <ion-icon
+                    class="btn-mobile-icon-1"
+                    name="close-outline"
+                  ></ion-icon>
+                </button>
+              </div>
+            </div>
+          </header>
+          <script>
+            const btnNavEl = document.querySelector(".btn-mobile-nav");
+            const headerEl = document.querySelector(".header");
+            btnNavEl.addEventListener("click", function () {
+              headerEl.classList.toggle("nav-open");
+            });
+          </script>
+        </div>
+        <div class="container">
+          <div>
+            <a href="#" class="search-link"
+              ><ion-icon class="search-icon" name="search"></ion-icon
+            ></a>
+            <a href="#"><input type="text" placeholder="Search Amazon.in" /></a>
+            <a href="#"
+              ><ion-icon class="camera-icon" name="image-outline"></ion-icon
+            ></a>
+            <a href="#"
+              ><ion-icon class="mic-icon" name="mic-outline"></ion-icon
+            ></a>
+          </div>
+        </div>
+        <div class="container">
+          <a href="#">
+            <ion-icon class="back-icon" name="scan-outline"></ion-icon
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="back-color-2">
+      <div class="container-3">
+        <a href="#" class="location-link"
+          ><ion-icon class="loc-icon" name="location-outline"></ion-icon>
+          <p class="location-text">
+            Delivering to Chennai 600021 - Update locatio...
+          </p>
+        </a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="desc-img-box">
+        <a href="phones.html" class="dec-imgs">
+          <img
+            src="https://m.media-amazon.com/images/I/110goaYwsDL._SX100_SY100_.jpg"
+            alt="mobiles"
+          />
+          <p class="desc-text">Mobiles</p>
+        </a>
+        <a href="fashion.html" class="dec-imgs">
+          <img
+            src="https://m.media-amazon.com/images/I/11luqHr9bsL._SX100_SY100_.jpg"
+            alt="mobiles"
+          />
+          <p class="desc-text">Fashion</p>
+        </a>
+        <a href="#" class="dec-imgs">
+          <img
+            src="https://m.media-amazon.com/images/I/11n0LdtsN7L._SX100_SY100_.jpg"
+            alt="mobiles"
+          />
+          <p class="desc-text">Electronics</p>
+        </a>
+        <a href="#" class="dec-imgs">
+          <img
+            src="https://m.media-amazon.com/images/I/312t+JcSoDL._SX100_SY100_.jpg"
+            alt="mobiles"
+          />
+          <p class="desc-text">Deals</p>
+        </a>
+        <a href="#" class="dec-imgs">
+          <img
+            src="https://m.media-amazon.com/images/I/11S4r-bgNEL._SX100_SY100_.jpg"
+            alt="mobiles"
+          />
+          <p class="desc-text">Mini TV</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="container-2">
+      <a href="#">
+        <img
+          class="poster"
+          alt="banner"
+          src="https://m.media-amazon.com/images/I/81pUCPONpmL._SR1236,1080_.jpg"
+        />
+      </a>
+
+      <div class="post">
+        <a href="#">
+          <img
+            class="poster-2"
+            alt="banner delivery"
+            src="https://m.media-amazon.com/images/I/41P-ARf+EcL._SR1245,150_.jpg"
+          />
+        </a>
+      </div>
+      <div class="sale-banner">
+        <a href="#">
+          <img
+            class="poster"
+            alt="banner delivery"
+            src="https://m.media-amazon.com/images/I/619I9Z8QngL._SR1242,400_.jpg"
+          />
+        </a>
+      </div>
+    </div>
+    <div class="container">
+      <a class="watch-link" href="watch.html">
+        <h2 class="watch-text">Starting ₹299 | Deals on fashion,beauty</h2>
+        <div class="watch-img-box">
+          <img
+            src="https://m.media-amazon.com/images/I/41WIROp7icS._AC_SY440_.jpg"
+            alt="watch photos"
+          />
+        </div>
+
+        <div class="amount-box">
+          <p class="deal-amount">₹499 and under</p>
+          <p class="deal-amount-1">Deal of the day</p>
+        </div>
+        <h3 class="watch-dec">Super deals on Matrix Watches</h3>
+      </a>
+      <div class="images-box">
+        <a href="#">
+          <img
+            class="image-1"
+            src="https://m.media-amazon.com/images/I/41WIROp7icS._AC_SY440_.jpg"
+          />
+        </a>
+        <a href="#">
+          <img
+            class="image-2"
+            src="https://m.media-amazon.com/images/I/4192vgLq-PL._AC_SY172_.jpg"
+          />
+        </a>
+        <a href="#">
+          <img
+            class="image-3"
+            src="https://m.media-amazon.com/images/I/41CK1beSvZL._AC_SY172_.jpg"
+          />
+        </a>
+        <a href="#">
+          <img
+            class="image-4"
+            src="https://m.media-amazon.com/images/I/41zvsUXSTsL._AC_SY172_.jpg"
+          />
+        </a>
+      </div>
+      <a href="#" class="see-link">See all deals</a>
+    </div>
+  </body>
+</html>

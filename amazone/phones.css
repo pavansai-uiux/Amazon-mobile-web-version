@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.25%;
+}
+
+body {
+  font-family: sans-serif;
+}
+.container {
+  max-width: 34.4rem;
+  padding: 1.2rem 0.4rem;
+  margin: 0 auto;
+}
+.container-3 {
+  max-width: 34.4rem;
+  margin: 0 auto;
+}
+.container-2 {
+  max-width: 36.4rem;
+  margin: auto;
+}
+.back-color-1 {
+  background-color: #63e6be;
+  padding: 2.4rem 0 0 0;
+}
+
+input {
+  width: 100%;
+  padding: 1.3rem 4.7rem;
+  border-radius: 0.6rem;
+  border: 1px solid #55555599;
+  outline: none;
+  font-size: 1.6rem;
+  color: #777;
+}
+
+.search-link {
+  color: black;
+}
+
+.search-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: 0.7rem;
+}
+
+.full-serach-flex {
+  display: flex;
+  align-items: center;
+}
+
+.back-icon {
+  color: #000;
+  width: 2.8rem;
+  height: 2.8rem;
+}
+.camera-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: -8.2rem;
+  color: #777;
+}
+.mic-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: -3.5rem;
+  color: #777;
+}
+
+.back-color-2 {
+  background-color: #96f2d7;
+  padding: 1.2rem;
+}
+
+.loc-icon {
+  width: 2rem;
+  height: 2rem;
+  color: black;
+}
+
+.location-link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.btn {
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: none;
+  width: 100%;
+  display: flex;
+  padding: 1.5rem 1.2rem;
+  gap: 0.6rem;
+  background-color: whitesmoke;
+  border-bottom: 0.1rem solid #e1e0e0;
+}
+
+.btn-link {
+  text-decoration: none;
+}
+
+.back-icon-1 {
+  color: #000;
+  width: 1.3rem;
+  height: 1.3rem;
+  margin-top: 0.133rem;
+}
+
+.btn:hover {
+  background-color: rgb(241, 240, 240);
+}
+
+.banner-img {
+  width: 100%;
+}
+.banner-img-1 {
+  width: 100%;
+  margin-top: 2.2rem;
+}
+.banner-img-2 {
+  width: 100%;
+  margin-top: 2.2rem;
+}
+
+.img-flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-top: -0.2rem;
+}
+
+.img-flex img {
+  width: 100%;
+}
+
+.images {
+  margin-top: -0.2rem;
+}
